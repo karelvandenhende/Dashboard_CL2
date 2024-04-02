@@ -16,8 +16,8 @@ import plotly.express as px
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv')
 
 # Initialize the app
-app = Dash(__name__)
-server = app.server
+my_app = Dash(__name__)
+server = my_app.server
 
 # Define input parameters
 inputs = [
